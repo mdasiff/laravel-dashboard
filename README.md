@@ -1,6 +1,6 @@
-
+<center>
 ![Inertia Pixel Logo](public/images/logo/logo.png)
-
+</center>
 
 # Laravel Dashboard with PHPUnit Test Case and Maximum Code Coverage
 
