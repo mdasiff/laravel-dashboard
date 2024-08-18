@@ -1,8 +1,6 @@
-<p align="center">
-<a href="https://inertiapixel.com" target="_blank">
+
 ![Inertia Pixel Logo](public/images/logo/logo.png)
-</a>
-</p>
+
 
 # Laravel Dashboard with PHPUnit Test Case and Maximum Code Coverage
 
