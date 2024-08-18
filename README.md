@@ -25,18 +25,18 @@ This repository features a Laravel-based dashboard application designed with a f
    git clone git@github.com:mdasiff/laravel-dashboard.git
    cd laravel-dashboard
 2. **Install Dependencies**
-Make sure you have Composer installed. Run the following command to install the PHP dependencies:
+<p>Make sure you have Composer installed. Run the following command to install the PHP dependencies:</p>
     ```bash
     composer install
 3. **Set Up Environment**
-Copy the `.env.example` file to `.env` and configure your environment settings.
+<p>Copy the `.env.example` file to `.env` and configure your environment settings.</p>
     ```bash
     cp .env.example .env
 4. **Generate an application key**
     ```bash
     php artisan key:generate
 5. **Run Migrations**
-Apply database migrations:
+<p>Apply database migrations:</p>
     ```bash
     php artisan migrate
 
