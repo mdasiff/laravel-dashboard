@@ -1,0 +1,36 @@
+.image-wrapper {
+	width: 65px;
+}
+.image-wrapper img {
+	max-width: 100%;
+}
+
+.select2-container .select2-selection--single {
+	height: 40px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 8px !important;
+}
+
+#datepicker input {
+	width: 100% !important;
+}
+
+#datepicker span {
+	float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+	cursor: default;
+	padding-left: 10px !important;
+	padding-right: 5px;
+	color: black !important;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+	width: auto !important;
+  	height: 25px !important;
+}
