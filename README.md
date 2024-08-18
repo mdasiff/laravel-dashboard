@@ -40,6 +40,10 @@ Apply database migrations:
     ```bash
     php artisan migrate
 
+6. **Set Up the Test Database*
+Create a seperate test database with name `laravel_test_database` so that main db could not be tempered while running unit test.
+I already configured it into `.env.testing`. 
+
 ## Install Xdebug
 Ensure Xdebug is installed and configured for generating code coverage reports.
 See how you can Install Xdebug seamlessly: https://youtu.be/Mr1s6-YfxQQ
