@@ -47,3 +47,7 @@ This command will execute the tests and create an `HTML` report in the coverage 
 
 ## Viewing Code Coverage Report
 Open the `index.html` file located in the `report` directory in your web browser to view the detailed HTML code coverage report.
+
+## Screenshots
+
+![Dashboard](public/screenshots/dashboard.png)
