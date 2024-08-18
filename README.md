@@ -67,14 +67,12 @@ Open the `index.html` file located in the `report` directory in your web browser
 
 ## PHPUnit with Xdebug Unit test Code Coverage Screenshots
 
-**Dashboard**
-![Dashboard](public/screenshots/dashboard.png)
+**Consolidated Code Coverage Report Dashboard**
+![Consolidated Code Coverage Report Dashboard](public/screenshots/dashboard.png)
 
 **All File Report**
 ![Dashboard](public/screenshots/all-file-report.png)
 
-**All File Report**
-![Dashboard](public/screenshots/all-file-report.png)
 
 **Controllers Coverage**
 ![Controllers Coverage](public/screenshots/controller-coverage.png)
