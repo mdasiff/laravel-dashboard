@@ -10,7 +10,7 @@
     </a>
   </li>
 
-  <li class="nav-item {{\App\Helpers\AdminHelper::isNavActive(['query'])}}">
+  {{-- <li class="nav-item {{\App\Helpers\AdminHelper::isNavActive(['query'])}}">
     <a href="#" 
     class="nav-link {{\App\Helpers\AdminHelper::isNavChildActive(['query'])}}">
       <i class="nav-icon fas fa-book"></i>
@@ -62,7 +62,7 @@
       </li>
       
     </ul>
-  </li>
+  </li> --}}
 
   <li class="nav-item {{\App\Helpers\AdminHelper::isNavActive('banner')}}">
     <a href="{{ route('admin.banner.index')}}" class="nav-link {{\App\Helpers\AdminHelper::isNavChildActive('banner')}}">

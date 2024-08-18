@@ -18,7 +18,6 @@ use App\Http\Controllers\Admin\{
     WebinarTestimonialController,
     LocationController,
     CountryController,
-    QueryController,
     BannerController,
     TickerController,
     ResourceController,
@@ -314,23 +313,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             Route::get('/delete/{marketplaceCategory}', [MarketplaceCategoryController::class, 'delete'])->name('delete');
         });
 
-        // Quries routes
-        Route::group(['prefix' => 'query', 'as' => 'query.'], function () {
-            Route::get('/', [QueryController::class, 'index'])->name('index');
-            
-            Route::get('/webinar', [QueryController::class, 'webinar'])->name('webinaq');
-            Route::get('/webinar-delete/{webinar_query}', [QueryController::class, 'webinar_delete'])->name('webinar.delete');
-
-            Route::get('/resource', [QueryController::class, 'resource'])->name('resourcq');
-            Route::get('/resource-delete/{resource}', [QueryController::class, 'resource_delete'])->name('resource.delete');
-
-            Route::get('/career', [QueryController::class, 'career'])->name('career');
-            Route::get('/career-delete/{career_query}', [QueryController::class, 'career_delete'])->name('career.delete');
-
-            Route::get('/contact', [QueryController::class, 'contact'])->name('contact');
-            Route::get('/contact-delete/{contact_query}', [QueryController::class, 'contact_delete'])->name('contact.delete');
-
-        });
+        
 
         // news routes
         Route::group(['prefix' => 'news', 'as' => 'news.'], function () {
