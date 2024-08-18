@@ -1,7 +1,8 @@
-![Inertia Pixel Logo](public/images/logo/logo.png)
 
 <p align="center">
-  <img src="public/images/logo/logo.png" alt="Inertia Pixel Logo" />
+    <a href="https://www.inertiapixel.com/" target="_blank">
+      <img src="public/images/logo/logo.png" alt="Inertia Pixel Logo" />
+    </a>
 </p>
 
 # Laravel Dashboard with PHPUnit Test Case and Maximum Code Coverage
