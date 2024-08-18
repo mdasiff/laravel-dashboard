@@ -1,4 +1,3 @@
-
 <p align="center">
     <a href="https://www.inertiapixel.com/" target="_blank">
       <img src="public/images/logo/logo.png" alt="Inertia Pixel Logo" />
@@ -55,6 +54,31 @@ This command will execute the tests and create an `HTML` report in the coverage 
 ## Viewing Code Coverage Report
 Open the `index.html` file located in the `report` directory in your web browser to view the detailed HTML code coverage report.
 
-## Screenshots
+## Admin Dashboard Screenshots
 
+**Login**
+![Admin Dashboard](public/screenshots/login.png)
+
+**Admin Dashboard**
+![Admin Dashboard](public/screenshots/admin-dashboard.png)
+
+**Create Record View**
+![Create Record View](public/screenshots/create.png)
+
+## PHPUnit with Xdebug Unit test Code Coverage Screenshots
+
+**Dashboard**
 ![Dashboard](public/screenshots/dashboard.png)
+
+**All File Report**
+![Dashboard](public/screenshots/all-file-report.png)
+
+**All File Report**
+![Dashboard](public/screenshots/all-file-report.png)
+
+**Controllers Coverage**
+![Controllers Coverage](public/screenshots/controller-coverage.png)
+
+**Individual Controller Coverage**
+![Individual Controller Coverage](public/screenshots/individual-controller-code-coverage-1.png)
+![Individual Controller Coverage](public/screenshots/individual-controller-code-coverage.png)
